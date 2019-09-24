@@ -30,7 +30,7 @@ namespace Login.Controllers
 
         public ActionResult getUsers()
         {
-            using (inventorymgtEntities dbModel = new inventorymgtEntities())
+            using(inventorymgtEntities dbModel = new inventorymgtEntities())
             {
                 var users = dbModel.users.OrderBy(model => model.fname).ToList();
 
@@ -38,10 +38,9 @@ namespace Login.Controllers
             }
 
         }
+        
 
-
-        public ActionResult viewUser(int id)
-        {
+        public ActionResult viewUser(int id) {
 
             using (inventorymgtEntities dbModel = new inventorymgtEntities())
             {
@@ -59,23 +58,21 @@ namespace Login.Controllers
 
         }
 
-        [HttpPost]
-        [ActionName("viewUser")]
-        public ActionResult deleteUser(int id)
-        {
+        //[HttpPost]
+        //[ActionName("viewUser")]
+        public ActionResult deleteUser(int id) {
 
             bool status = false;
 
-            using (inventorymgtEntities dbModel = new inventorymgtEntities())
-            {
+            using (inventorymgtEntities dbModel = new inventorymgtEntities()) {
 
                 var usr = dbModel.users.Where(a => a.regId == id).FirstOrDefault();
-                if (usr != null)
+                if(usr != null)
                 {
                     dbModel.users.Remove(usr);
                     dbModel.SaveChanges();
                     status = true;
-
+ 
 
                 }
 
@@ -83,7 +80,7 @@ namespace Login.Controllers
 
             }
 
-
+            
 
         }
 
@@ -121,7 +118,7 @@ namespace Login.Controllers
             str.Seek(0, SeekOrigin.Begin);
 
             string savedFileName = string.Format("OrderReport_{0}", DateTime.Now);
-            return File(str, "application/pdf", savedFileName + ".pdf");
+            return File(str, "application/pdf", savedFileName+".pdf");
         }
 
 
