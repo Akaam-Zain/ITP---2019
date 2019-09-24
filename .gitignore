@@ -3,6 +3,18 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 .vs/
+.vs/Sky Gym/v16/.suo
+.vs/Sky Gym/v16/Server/sqlite3/storage.ide
+Inventory_management/bin/Inventory_management.dll
+Inventory_management/bin/Inventory_management.pdb
+Inventory_management/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Inventory_management/obj/Debug/Inventory_management.csproj.CoreCompileInputs.cache
+Inventory_management/obj/Debug/Inventory_management.csproj.FileListAbsolute.txt
+Inventory_management/obj/Debug/Inventory_management.csprojAssemblyReference.cache
+Inventory_management/obj/Debug/Inventory_management.dll
+Inventory_management/obj/Debug/Inventory_management.pdb
+
+
 
 # User-specific files
 *.rsuser
