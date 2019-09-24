@@ -25,6 +25,7 @@ namespace Inventory_management.Models
         [Required(ErrorMessage = "To date has to be filled")]
         public string todate { get; set; }
         [Required(ErrorMessage = "No of days has to be filled")]
+        [Range(1, 1000,ErrorMessage = "Invalid number of days")]
         public string noofdays { get; set; }
     }
 }
