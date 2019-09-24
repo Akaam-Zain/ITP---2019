@@ -12,20 +12,20 @@ namespace Inventory_management.Controllers
 
     public class MemberController : Controller
     {
-        
+
         // GET: Member
         public ActionResult Index()
         {
-            
+
             using (inventorymgtEntities dbModel = new inventorymgtEntities())
             {
 
-              //  List<bill> lst = new List<bill>();
-               // lst = dbModel.bills.ToList();
+                //  List<bill> lst = new List<bill>();
+                // lst = dbModel.bills.ToList();
                 return View(dbModel.members.ToList());
             }
 
-           
+
         }
 
         // GET: Member/Details/5

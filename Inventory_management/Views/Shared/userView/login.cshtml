@@ -11,17 +11,19 @@
     <link href="~/css/util.css" rel="stylesheet" />
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>*@
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>*@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
+    @Styles.Render("~/Content/bootstrap.min.css")
+    @Styles.Render("~/Content/bootstrap-grid.min.css")
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    @*<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">*@
 
 </head>
-<body>
+<body style="background-image: url('../../images/b.jpg')">
 
     <header>
 
@@ -36,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#index.aspx">HOME</a>
+                            <a class="nav-link js-scroll-trigger" href="@Url.Action("Welcome", "Login")">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#schedule.aspx">SCHEDULE</a>
@@ -152,16 +154,24 @@
     </footer>
 
 
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/jquery-ui-1.12.1.min.js")
+    @*@Scripts.Render("~/Scripts/jquery-3.1.1.min.js")*@
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
 
 
-    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
-    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    <script src="js/jquery.min.js"></script>
 
-    <script src="~/Scripts/bootstrap.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+    @*<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>*@
+    @*<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+        <script src="js/jquery.min.js"></script>*@
+
+    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+    @*<script src="js/bootstrap.min.js"></script>*@
 
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
