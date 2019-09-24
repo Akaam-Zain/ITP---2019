@@ -10,9 +10,7 @@
 
     public class DBModel : DbContext
     {
-
-        MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password='';allowuservariables=True");
-
+        MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=123456;allowuservariables=True");
 
 
 

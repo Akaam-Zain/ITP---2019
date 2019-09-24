@@ -44,33 +44,27 @@ body, html {
 
 .login-status{
     margin-top:30px;
-    /*padding:0 124px;*/
-    width:247px;
+    padding:0 10px;
     color:#c80000;
     border:1px solid;
     border-radius:10px;
     float:right;
-    /*margin-left:40px;*/
+    margin-left:40px;
     font-size:medium;
 
 }
 
-#btnLogin{
-    background-color:black;
-    font-size: 20px;
-    border-radius: 30px;
-}
 /*---------------------------------------------*/
 a {
-    font-family: Poppins-Regular;
-    font-size: 14px;
-    line-height: 1.7;
-    color: #666666;
-    margin: 0px;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
 }
 
 a:focus {
@@ -183,7 +177,6 @@ iframe {
 .limiter {
   width: 100%;
   margin: 0 auto;
-  height:600px;
 
 }
 
@@ -230,7 +223,7 @@ iframe {
   background-size: cover;
   background-position: center;
 
-  padding: 30px 15px 74px 15px;
+  padding: 70px 15px 74px 15px;
 }
 
 .login100-form-title-1 {

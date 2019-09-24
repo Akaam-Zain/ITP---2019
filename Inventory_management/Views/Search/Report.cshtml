@@ -6,136 +6,136 @@
 }
 
 
-    <html>
-    <head>
+<html>
+<head>
 
-        <style>
+    <style>
 
-            /*td {
+        /*td {
                 background-color: #808080;
             }*/
 
-            /*tr td:hover {
+        /*tr td:hover {
                 background-color: #c2c2c2;
             }*/
 
-        </style>
+    </style>
 
-        </head>
+</head>
 
-    <body>
-        <br />
+<body>
+    <br />
 
 
-        <br />
+    <br />
 
-        <div class="col-4" style="float:right">
-            <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
-        </div>
+    <div class="col-4" style="float:right">
+        <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
+    </div>
 
-        <a href="@Url.Action("Create","Employee")" class="btn btn-success" style="text-decoration:none; color:white;">Create New </a>
+    <a href="@Url.Action("Create","Employee")" class="btn btn-success" style="text-decoration:none; color:white;">Create New </a>
 
-        <br />
-        <br />
+    <br />
+    <br />
 
-        <div style="overflow-x:auto; overflow-y:auto">
-            <table class="table">
-                <tr>
-                    <th>ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                    <th>Password</th>
-                    <th>Age</th>
-                    <th>Gender</th>
-                    <th>Occ</th>
-                    <th>Weight</th>
-                    <th>Height</th>
-                    <th>Phone</th>
-                    <th>Address</th>
-                    <th>Shedule</th>
-                    <th>Dietory Plan</th>
-                    <th>Payment</th>
+    <div style="overflow-x:auto; overflow-y:auto">
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Occ</th>
+                <th>Weight</th>
+                <th>Height</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Shedule</th>
+                <th>Dietory Plan</th>
+                <th>Payment</th>
+
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr class="Search">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.regId)
+                    </td>
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.fname)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.lname)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.password_)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.age)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.gender)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.ocp)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.weight_)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.height)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.phone)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.address)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.shedule)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.d_plan)
+                    </td>
+
+                    <td class="col-3">
+                        @Html.DisplayFor(modelItem => item.pay_type)
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("View", "viewUser", new { id = item.regId }, new { @class = "btn btn-success", @style = "color:white" })
+                        <!--@Html.ActionLink("Details", "Details", new { id = item.regId }) -->
+                        @Html.ActionLink("Delete", "deleteUser", new { id = item.regId }, new { @class = "btn btn-danger", @style = "color:white" })
+                    </td>
 
                 </tr>
+            }
 
-                @foreach (var item in Model)
-                {
-                    <tr class="Search">
-                        <td>
-                            @Html.DisplayFor(modelItem => item.regId)
-                        </td>
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.fname)
-                        </td>
+        </table>
+    </div>
 
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.lname)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.email)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.password_)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.age)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.gender)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.ocp)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.weight_)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.height)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.phone)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.address)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.shedule)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.d_plan)
-                        </td>
-
-                        <td class="col-3">
-                            @Html.DisplayFor(modelItem => item.pay_type)
-                        </td>
-
-                        <td>
-                            @Html.ActionLink("View", "viewUser", new { id = item.regId }, new { @class = "btn btn-success", @style = "color:white" })
-                            <!--@Html.ActionLink("Details", "Details", new { id = item.regId }) -->
-                            @Html.ActionLink("Delete", "deleteUser", new { id = item.regId }, new { @class = "btn btn-danger", @style = "color:white" })
-                        </td>
-
-                    </tr>
-                }
-
-            </table>
-        </div>
-
-        @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
-        @*<script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
-        <script>
+    @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
+    @*<script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
+    <script>
             $(document).ready(function () {
 
                 function Contains(text_one, text_two) {
@@ -206,9 +206,9 @@
 
             }
 
-        </script>
+    </script>
 
-    </body>
+</body>
 </html>
 
 

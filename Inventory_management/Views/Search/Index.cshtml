@@ -2,7 +2,7 @@
 
 
 @{
-    Layout = "~/Views/Shared/adminView/profile.cshtml";
+    Layout = "~/Views/Shared/adminView/admin.cshtml";
 }
 
 
@@ -138,75 +138,75 @@
     @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
     @*<script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
     <script>
-            $(document).ready(function () {
+        $(document).ready(function () {
 
-                function Contains(text_one, text_two) {
-                    if (text_one.indexOf(text_two) != -1)
-                        return true;
-                }
+            function Contains(text_one, text_two) {
+                if (text_one.indexOf(text_two) != -1)
+                    return true;
+            }
 
 
-                $("#Search").keyup(function () {
-                    var searchText = $("#Search").val().toLowerCase();
-                    $(".Search").each(function () {
+            $("#Search").keyup(function () {
+                var searchText = $("#Search").val().toLowerCase();
+                $(".Search").each(function () {
 
-                        if (!Contains($(this).text().toLowerCase(), searchText)) {
-                            $(this).hide();
-                        }
-                        else {
+                    if (!Contains($(this).text().toLowerCase(), searchText)) {
+                        $(this).hide();
+                    }
+                    else {
 
-                            $(this).show();
-                        }
-                    });
-
+                        $(this).show();
+                    }
                 });
 
             });
 
-            $('.tablecontainer').on('click', 'a.popup', function (e) {
-                e.preventDefault();
-                OpenPopup($(this).attr('href'));
-            })
+        });
 
-            function OpenPopup(pageUrl) {
+        $('.tablecontainer').on('click', 'a.popup', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
 
-                var $pageContent = $('<div />');
-                $pageContent.load(pageUrl);
+        function OpenPopup(pageUrl) {
+
+            var $pageContent = $('<div />');
+            $pageContent.load(pageUrl);
 
 
-                $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
-                    .html($pageContent)
-                    .dialog({
-                        draggable: false,
-                        autoOpen: false,
-                        resizable: false,
-                        model: true,
-                        title: 'Remove User',
-                        height: 550,
-                        width: 600,
-                        close: function () {
-                            $dialog.dialog('destroy').remove();
+            $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    title: 'Remove User',
+                    height: 550,
+                    width: 600,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                });
+
+            $('.popupWindow').on('submit', '#popupForm', function (e) {
+                var url = $('#popupForm')[0].action;
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $('#popupForm').serialize(),
+                    success: function (data) {
+                        if (data.status) {
+                            $dialog.gialog('close');
+                            oTable.ajax.reload();
                         }
-                    });
-
-                $('.popupWindow').on('submit', '#popupForm', function (e) {
-                    var url = $('#popupForm')[0].action;
-                    $.ajax({
-                        type: "POST",
-                        url: url,
-                        data: $('#popupForm').serialize(),
-                        success: function (data) {
-                            if (data.status) {
-                                $dialog.gialog('close');
-                                oTable.ajax.reload();
-                            }
-                        }
-                    })
-                    e.preventDefault();
+                    }
                 })
-                $dialog.dialog('open');
+                e.preventDefault();
+            })
+            $dialog.dialog('open');
 
-            }
+        }
 
     </script>
 

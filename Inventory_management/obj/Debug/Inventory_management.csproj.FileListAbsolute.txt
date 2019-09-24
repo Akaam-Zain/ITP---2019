@@ -1,211 +1,819 @@
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.dll.config
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.pdb
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.exe
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.exe.config
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.rsp
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.exe
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.exe.config
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.rsp
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.AppContext.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Console.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Compression.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Pipes.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Claims.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.ValueTuple.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XPath.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.exe
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.exe.config
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.rsp
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\VBCSCompiler.exe
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Antlr3.Runtime.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.ReportSource.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.Shared.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.Web.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.SqlServer.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\log4net.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.Entity.EF6.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.EntityFramework.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Newtonsoft.Json.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Buffers.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Data.SqlClient.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Memory.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Numerics.Vectors.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Runtime.CompilerServices.Unsafe.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Threading.Tasks.Extensions.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Helpers.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Mvc.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Optimization.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Razor.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Deployment.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Razor.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\WebGrease.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Google.Protobuf.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\BouncyCastle.Crypto.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.SqlServer.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\log4net.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.Entity.EF6.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.EntityFramework.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Buffers.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Memory.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Numerics.Vectors.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Runtime.CompilerServices.Unsafe.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Threading.Tasks.Extensions.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Helpers.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Mvc.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Optimization.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Razor.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Deployment.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Razor.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Newtonsoft.Json.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Antlr3.Runtime.pdb
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.dll
-D:\Downloads\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.pdb
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.dll.config
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Inventory_management.pdb
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.exe
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.exe.config
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csc.rsp
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.exe
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.exe.config
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\csi.rsp
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.AppContext.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Console.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Compression.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.IO.Pipes.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Claims.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.ValueTuple.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.exe
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.exe.config
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\vbc.rsp
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\VBCSCompiler.exe
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Antlr3.Runtime.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.ReportSource.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.Shared.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\CrystalDecisions.Web.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.SqlServer.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\log4net.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.Entity.EF6.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.EntityFramework.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Newtonsoft.Json.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Buffers.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Data.SqlClient.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Memory.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Numerics.Vectors.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Threading.Tasks.Extensions.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Helpers.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Mvc.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Optimization.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Razor.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Razor.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\WebGrease.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Google.Protobuf.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\BouncyCastle.Crypto.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\EntityFramework.SqlServer.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\log4net.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.Entity.EF6.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\MySql.Data.EntityFramework.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Buffers.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Memory.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Numerics.Vectors.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Threading.Tasks.Extensions.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Helpers.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Mvc.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Optimization.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.Razor.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\System.Web.WebPages.Razor.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Newtonsoft.Json.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Antlr3.Runtime.pdb
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.csprojResolveAssemblyReference.cache
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.dll
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\obj\Debug\Inventory_management.pdb
-C:\Users\Thili\Desktop\ITP---2019-master\ITP---2019-master\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\Sky Gym\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\New folder\New folder\New folder\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Desktop\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Documents\SLIIT\ITP\Online Gym System\Sky Gym\Inventory_management\obj\Debug\Inventory_management.pdb
+<<<<<<< HEAD
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Inventory_management.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Inventory_management.pdb
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csc.exe
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csi.exe
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\EntityFramework.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\WebGrease.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\stdole.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\EntityFramework.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\obj\Debug\Inventory_management.pdb
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\lalith\Desktop\ITP 2\Inventory_management\bin\CrystalDecisions.Shared.dll
+=======
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Inventory_management.dll.config
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Inventory_management.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Inventory_management.pdb
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csc.exe
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csc.exe.config
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csc.rsp
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csi.exe
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csi.exe.config
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\csi.rsp
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.AppContext.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Console.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.IO.Compression.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Claims.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.ValueTuple.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\vbc.exe
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\vbc.exe.config
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\vbc.rsp
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Antlr3.Runtime.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.Shared.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\EntityFramework.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\EntityFramework.SqlServer.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.EntityFramework.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Newtonsoft.Json.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Helpers.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Mvc.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Optimization.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Razor.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.Razor.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\WebGrease.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Google.Protobuf.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\BouncyCastle.Crypto.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\stdole.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\EntityFramework.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\EntityFramework.SqlServer.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\MySql.Data.EntityFramework.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Helpers.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Mvc.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Optimization.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.Razor.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\System.Web.WebPages.Razor.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Newtonsoft.Json.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Antlr3.Runtime.pdb
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\obj\Debug\Inventory_management.csprojAssemblyReference.cache
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\obj\Debug\Inventory_management.csproj.CoreCompileInputs.cache
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\obj\Debug\Inventory_management.csproj.CopyComplete
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\obj\Debug\Inventory_management.dll
+C:\Users\Akaam Zain\Desktop\New folder (2)\ITP---2019\Inventory_management\obj\Debug\Inventory_management.pdb
+>>>>>>> master
