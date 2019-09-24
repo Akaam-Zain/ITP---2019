@@ -30,7 +30,7 @@ namespace Login.Controllers
             using (inventorymgtEntities dbModel = new inventorymgtEntities())
             {
                 var pass = userModel.password_ != null ? userModel.password_.ToString() : "";
-                var usrname = userModel.username != null ? userModel.username.ToString() : "";
+                var usrname = userModel.username != null ? userModel.username.ToString(): "";
                 if (pass != null && usrname != null)
                 {
                     var userDetails = dbModel.users.Where(x => x.email == usrname && x.password_ == pass).FirstOrDefault();
