@@ -58,8 +58,8 @@ namespace Login.Controllers
 
         }
 
-        [HttpPost]
-        [ActionName("viewUser")]
+        //[HttpPost]
+        //[ActionName("viewUser")]
         public ActionResult deleteUser(int id) {
 
             bool status = false;

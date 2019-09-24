@@ -128,18 +128,20 @@ namespace Inventory_management.Controllers
 
             using( inventorymgtEntities dbModel = new inventorymgtEntities())
             {
+                //get the user details from user table according to the user id
                 var userDetails = dbModel.users.Where(x => x.regId == id).FirstOrDefault();
+                //get the attendance details from attendance table according to user id
                 var atndDetails = dbModel.attendances.Where(x => x.user_ == id).FirstOrDefault();
 
                 //if (DateTime.Now.Date > atndDetails.date_)
                
 
-
+                //comparing whether current submiting date is higher than the last modified date
                 DateTime dt = DateTime.Parse(atndDetails.date_);
                     if (DateTime.Now.Date.CompareTo(dt)>0) {
-
+                    //if yes, set the atndetails object state to false
                     atndDetails.status_ = "false";
-
+                    //set
                     dbModel.Entry(atndDetails).State = EntityState.Modified;
                     dbModel.SaveChanges();
                 }
@@ -166,7 +168,7 @@ namespace Inventory_management.Controllers
 
                 Session["username"] = userDetails.fname+" "+userDetails.lname;
                 Session["userId"] = userDetails.regId;
-                Session["progress"] = ((double)cdays / (double)sPlan )* 100 /*/(100 / 45) * cdays*/;
+                Session["progress"] = ((double)cdays / (double)sPlan )* 100 ;
                 Session["rDays"] = sPlan - cdays;
 
                 return View(dbModel.attendances.Where(x => x.user_ == id).FirstOrDefault());
