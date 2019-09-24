@@ -8,300 +8,300 @@
 
 
 
-        @Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jquery")
 
-        @Scripts.Render("~/Scripts/bootstrap.min.js")
-        @*@Scripts.Render("~/Scripts/jquery-1.10.2.min.js")*@
-        @*@Scripts.Render("~/Scripts/jquery-3.1.1.min.js")*@
-        @*@Scripts.Render("~/Scripts/jquery-3.4.1.intellisense.js")*@
-        @Scripts.Render("~/Scripts/jquery.validate.min.js")
-        @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+@Scripts.Render("~/Scripts/bootstrap.min.js")
+@*@Scripts.Render("~/Scripts/jquery-1.10.2.min.js")*@
+@*@Scripts.Render("~/Scripts/jquery-3.1.1.min.js")*@
+@*@Scripts.Render("~/Scripts/jquery-3.4.1.intellisense.js")*@
+@Scripts.Render("~/Scripts/jquery.validate.min.js")
+@Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
 
 
-      
-        <div class="p-main" style="height:100%; margin: 60px auto;">
-            <div class="p-form_layout">
 
-                <h2 class="p-h2"> My Profile</h2>
+<div class="p-main" style="height:100%; margin: 60px auto;">
+    <div class="p-form_layout">
 
-                <div class="g1" style="height: 100%;">
-                    <label class="un">@Model.fname @Model.lname</label>
+        <h2 class="p-h2"> My Profile</h2>
 
-                    @if (Model.img_path != null && Model.img_path != "")
-                    {
-                        <img src="@Url.Content(Model.img_path)" width="150" height="150" class="im" />
-                    }
-                    else if(Model.gender == "Female")
-                    {
-                        <img src="~/image/female.png" width="150" height="150" class="im" />
-                    }
-                    else
-                    {
-                        <img src="~/image/male.png" width="150" height="150" class="im" />
-                    }
-                    <br>
-                    <button class="img-upl buttn" data-toggle="modal" data-target="#uploadimage">Change Photo</button>
+        <div class="g1" style="height: 100%;">
+            <label class="un">@Model.fname @Model.lname</label>
 
-                    <div class="modal" id="uploadimage">
-                        <div class="modal-dialog" style="top:150px; left:40px;" justify-content: center;">
-                            <div class="modal-content" style="color:black; border:1px solid #808080; border-radius:0">
-                                <div class="modal-header" style="background-color:#000; color:white;">
-                                    <div class="modal-title"><h3>Upload Photo</h3></div>
-                                    <button data-dismiss="modal" class="close"><span style="color:#fff">&times;</span></button>
-                                </div>
+            @if (Model.img_path != null && Model.img_path != "")
+            {
+                <img src="@Url.Content(Model.img_path)" width="150" height="150" class="im" />
+            }
+            else if (Model.gender == "Female")
+            {
+                <img src="~/image/female.png" width="150" height="150" class="im" />
+            }
+            else
+            {
+                <img src="~/image/male.png" width="150" height="150" class="im" />
+            }
+            <br>
+            <button class="img-upl buttn" data-toggle="modal" data-target="#uploadimage">Change Photo</button>
 
-                                @using (Html.BeginForm("Details", "proifle", FormMethod.Post, new { enctype = "multipart/form-data" }))
-                                {
-                                    @Html.HiddenFor(model => model.regId, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.fname, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.lname, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.phone, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.ocp, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.age, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.gender, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.height, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.weight_, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.shedule, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.password_, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.pay_type, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="modal" id="uploadimage">
+                <div class="modal-dialog" style="top:150px; left:40px;" justify-content: center;">
+                    <div class="modal-content" style="color:black; border:1px solid #808080; border-radius:0">
+                        <div class="modal-header" style="background-color:#000; color:white;">
+                            <div class="modal-title"><h3>Upload Photo</h3></div>
+                            <button data-dismiss="modal" class="close"><span style="color:#fff">&times;</span></button>
+                        </div>
 
-                                    @Html.HiddenFor(model => model.d_plan, new { htmlAttributes = new { @class = "form-control" } })
+                        @using (Html.BeginForm("Details", "proifle", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            @Html.HiddenFor(model => model.regId, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.fname, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.lname, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.phone, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.ocp, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.age, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.gender, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.height, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.weight_, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.shedule, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.password_, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.HiddenFor(model => model.pay_type, new { htmlAttributes = new { @class = "form-control" } })
 
-                                    <div class="modal-body">
-                                        <div class="form-horizontal">
-                                            <div class="form-group">
-                                                @Html.LabelFor(model => model.img_path, htmlAttributes: new { @class = "control-label col-md-2" })
-                                                <div class="col-md-10">
-                                                    <input type="file" name="ImageFile" style="background:#ccc" />
-                                                </div>
-                                            </div>
+                            @Html.HiddenFor(model => model.d_plan, new { htmlAttributes = new { @class = "form-control" } })
+
+                            <div class="modal-body">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.img_path, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            <input type="file" name="ImageFile" style="background:#ccc" />
                                         </div>
                                     </div>
-
-                                    <div class="modal-footer">
-                                        <button class="btn btn-primary" type="submit" style="background-color:red">Upload</button>
-                                        <button class="btn btn-default" data-dismiss="modal">Cancel</button>
-                                    </div>
-                                }
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <br>
-
-                </div>
-
-                <div class="g2">
-
-                    <div class="form-horizontal" style="margin-left:60px;">
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.regId)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.regId)
-
-                            </div>
-                        </div>
-
-                        <hr class="p-hr" style="background-color:#ccc" />
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.fname)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.fname)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.lname)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.lname)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.email)
-                            </div>
-                            <div class="col-md-4">
-                                @Html.DisplayFor(model => model.email)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.age)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.age)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.gender)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.gender)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.ocp)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.ocp)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.weight_)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.weight_)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.height)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.height)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.phone)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.phone)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.address)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.address)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.shedule)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.shedule)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.d_plan)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.d_plan)
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-4" style="left:100px; text-align:left">
-                                @Html.DisplayNameFor(model => model.pay_type)
-                            </div>
-                            <div class="col-md-4" style="text-align:left">
-                                @Html.DisplayFor(model => model.pay_type)
-                            </div>
-                        </div>
-
-                        <p>
-                            @Html.ActionLink("Edit My Details", "Edit", new { id = Model.regId }, new { @class = "btn-profile" })
-                            <butt class="btn-profile" data-toggle="modal" data-target=".changepassword">Change password</butt>
-                            @Html.ActionLink("View Attendance", "Attendance", new { id = Model.regId }, new { @class = "btn-profile" })
-                        </p>
-
-
-                    </div>
-
-                                            </div>
-
-                    <hr class="p-hr" />
-
-      
-
-
-                    <div class="modal  changepassword" >
-                        <div class="modal-dialog" style="margin:0; justify-content:center">
-                            <div class="modal-content" style="color:black; border:1px solid #808080; border-radius:0; left:100%; top:150px; width:500px;">
-
-                                <div class="modal-header" style="background-color:#000; color:white;">
-                                    <div class="modal-title"><h3>Change Password</h3></div>
-                                    <button data-dismiss="modal" class="close"><span style="color:#fff">&times;</span></button>
                                 </div>
-
-                                @using (Html.BeginForm("ChangePassword", "proifle", FormMethod.Post))
-                                {
-                                    @Html.HiddenFor(model => model.regId, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.fname, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.lname, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.phone, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.ocp, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.age, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.gender, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.height, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.weight_, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.shedule, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.pay_type, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.img_path, new { htmlAttributes = new { @class = "form-control" } })
-                                    @Html.HiddenFor(model => model.d_plan, new { htmlAttributes = new { @class = "form-control" } })
-
-
-                                    <div class="modal-body">
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-2">New Password</label>
-                                            <div class="col-md-10">
-
-                                                @Html.EditorFor(model => model.password_, new { htmlAttributes = new { @class = "form-control", @id = "pass" } })
-                                                <div style="margin:10px; padding:5px; float:left"><input type="checkbox" onchange="document.getElementById('pass').type = this.checked ? 'text' : 'password'" /> show</div>
-                                                @Html.ValidationMessageFor(model => model.password_, "", new { @class = "text-danger" })
-
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="modal-footer">
-                                        <button class="btn btn-primary" type="submit" style="background-color:red">Change</button>
-                                        <button class="btn btn-default" data-dismiss="modal">Cancel</button>
-                                    </div>
-                                }
                             </div>
-                        </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" type="submit" style="background-color:red">Upload</button>
+                                <button class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            </div>
+                        }
                     </div>
-
-
-
                 </div>
+            </div>
+
+
+
+            <br>
+
+        </div>
+
+        <div class="g2">
+
+            <div class="form-horizontal" style="margin-left:60px;">
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.regId)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.regId)
+
+                    </div>
+                </div>
+
+                <hr class="p-hr" style="background-color:#ccc" />
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.fname)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.fname)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.lname)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.lname)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.email)
+                    </div>
+                    <div class="col-md-4">
+                        @Html.DisplayFor(model => model.email)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.age)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.age)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.gender)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.gender)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.ocp)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.ocp)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.weight_)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.weight_)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.height)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.height)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.phone)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.phone)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.address)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.address)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.shedule)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.shedule)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.d_plan)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.d_plan)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4" style="left:100px; text-align:left">
+                        @Html.DisplayNameFor(model => model.pay_type)
+                    </div>
+                    <div class="col-md-4" style="text-align:left">
+                        @Html.DisplayFor(model => model.pay_type)
+                    </div>
+                </div>
+
+                <p>
+                    @Html.ActionLink("Edit My Details", "Edit", new { id = Model.regId }, new { @class = "btn-profile" })
+                    <butt class="btn-profile" data-toggle="modal" data-target=".changepassword">Change password</butt>
+                    @Html.ActionLink("View Attendance", "Attendance", new { id = Model.regId }, new { @class = "btn-profile" })
+                </p>
+
 
             </div>
+
+        </div>
+
+        <hr class="p-hr" />
+
+
+
+
+        <div class="modal  changepassword">
+            <div class="modal-dialog" style="margin:0; justify-content:center">
+                <div class="modal-content" style="color:black; border:1px solid #808080; border-radius:0; left:100%; top:150px; width:500px;">
+
+                    <div class="modal-header" style="background-color:#000; color:white;">
+                        <div class="modal-title"><h3>Change Password</h3></div>
+                        <button data-dismiss="modal" class="close"><span style="color:#fff">&times;</span></button>
+                    </div>
+
+                    @using (Html.BeginForm("ChangePassword", "proifle", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.regId, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.fname, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.lname, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.phone, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.ocp, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.age, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.gender, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.height, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.weight_, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.shedule, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.pay_type, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.img_path, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.HiddenFor(model => model.d_plan, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2">New Password</label>
+                                <div class="col-md-10">
+
+                                    @Html.EditorFor(model => model.password_, new { htmlAttributes = new { @class = "form-control", @id = "pass" } })
+                                    <div style="margin:10px; padding:5px; float:left"><input type="checkbox" onchange="document.getElementById('pass').type = this.checked ? 'text' : 'password'" /> show</div>
+                                    @Html.ValidationMessageFor(model => model.password_, "", new { @class = "text-danger" })
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" type="submit" style="background-color:red">Change</button>
+                            <button class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
         </div>
 
 
