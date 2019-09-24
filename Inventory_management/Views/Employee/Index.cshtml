@@ -79,36 +79,38 @@
         }
 
     </table>
-    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    </div>
 
-    <script>
-        $(document).ready(function () {
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
 
-            function Contains(text_one, text_two) {
-                if (text_one.indexOf(text_two) != -1)
-                    return true;
-            }
+        <script>
+            $(document).ready(function () {
 
-            $("#Search").keyup(function () {
+                function Contains(text_one, text_two) {
+                    if (text_one.indexOf(text_two) != -1)
+                        return true;
+                }
 
-                var searchText = $("#Search").val().toLocaleLowerCase();
-                $(".Search").each(function () {
+                $("#Search").keyup(function () {
 
-                    if (!Contains($(this).text().toLowerCase(), searchText)) {
+                    var searchText = $("#Search").val().toLocaleLowerCase();
+                    $(".Search").each(function () {
 
-                        $(this).hide();
-                    }
-                    else {
-                        $(this).show();
-                    }
+                        if (!Contains($(this).text().toLowerCase(), searchText)) {
 
-                })
+                            $(this).hide();
+                        }
+                        else {
+                            $(this).show();
+                        }
+
+                    })
+                });
+
             });
 
-        });
 
+        </script>
 
-    </script>
-
-    <!--Comment-->
-    <!--Comment-->
+        <!--Comment-->
+        <!--Comment-->
