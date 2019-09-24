@@ -32,7 +32,7 @@ namespace Inventory_management.Models
         [Required(ErrorMessage = "Description has to be filled!")]
         public string Description { get; set; }
 
-        [Range(1, 100)]
+        [Range(1, 100, ErrorMessage = "Invalid number of days!")]
         [Required(ErrorMessage = "Days has to be filled!")]
         public int Days { get; set; }
 
