@@ -36,9 +36,7 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Days)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Image)
-                </th>
+                
                 <th>
                     @Html.DisplayNameFor(model => model.Morning_Trainer)
                 </th>
@@ -72,9 +70,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Days)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Image)
-                    </td>
+                    
                     <td>
                         @Html.DisplayFor(modelItem => item.Morning_Trainer)
                     </td>
@@ -83,10 +79,10 @@
                     </td>
                     <td>
                         @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary", @style = "text-decoration:none;color:white;" })
-                        
                     </td>
                     <td>
                         @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-dark", @style = "text-decoration:none;color:white;" })
+
                     </td>
                     <td>
                         @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger", @style = "text-decoration:none;color:white;" })
