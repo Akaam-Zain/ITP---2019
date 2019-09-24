@@ -54,7 +54,13 @@
                                             <div>
                                                 @Html.ActionLink("PROFILE", "Details", "proifle", new { id = Session["userID"] }, new { @class = "dropdown-item", @style = "text-decoration:none;color:dark;" })
                                                 @Html.ActionLink("Edit My Details", "Edit", "proifle", new { id = Session["userID"] }, new { @class = "dropdown-item", @style = "text-decoration:none;color:dark;" })
-                                                @Html.ActionLink("View Attendance", "Attendance", "proifle", new { id = Session["userID"] }, new { @class = "dropdown-item", @style = "text-decoration:none;color:dark;" })
+
+                                                @if (Session["occupation"].ToString() != "Employee")
+                                                {
+                                                    @Html.ActionLink("View Attendance", "Attendance", "proifle", new { id = Session["userID"] }, new { @class = "dropdown-item", @style = "text-decoration:none;color:dark;" })
+
+                                                }
+
                                             </div>
                                         </div>
 
@@ -63,8 +69,9 @@
                                         </li>
 
                                 </ul>
+                                @Html.ActionLink("LOGOUT", "LogOut", "Login", null, new { @class = "btn btn-outline-danger", @style = "text-decoration:none;color:white;" })
 
-                                <button class="btn btn-outline-danger">@Html.ActionLink("LOGOUT", "LogOut", new { @class = "btn btn-outline-danger", @style = "text-decoration:none;color:white;" })</button>
+                                @*<button class="btn btn-outline-danger">@Html.ActionLink("LOGOUT", "LogOut","Login",null, new { @class = "btn btn-outline-danger", @style = "text-decoration:none;color:white;" })</button>*@
 
                             </div>
                         </div>
