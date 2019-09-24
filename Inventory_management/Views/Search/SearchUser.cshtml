@@ -121,23 +121,35 @@
 
 
 
+    @Scripts.Render("~/bundles/jquery")
+
+
+
+    @*<script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.plugin.js" type="text/javascript"></script>*@
+
+
+    <script src="http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer></script>
+
 
     <script src="~/Scripts/jquery-3.1.1.min.js"></script>
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-    <script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+    @*<script src="~/Scripts/jquery-ui-1.12.1.js"></script>*@
 
 
     <script>
+
         $(document).ready(function () {
             var oTable = $('#mytable').DataTable({
                 "ajax": {
-                    "url" : '/home/GetEmployees',
+                    "url": '/home/GetEmployees',
                     "type": "get",
-                    "datatype" : "json"
+                    "datatype": "json"
                 },
-                "columns":  [
+                "columns": [
                     { "data": "regId", "autoWidth": true },
                     { "data": "fname", "autoWidth": true },
                     { "data": "lname", "autoWidth": true },
@@ -154,7 +166,7 @@
                     { "data": "d_plan", "autoWidth": true },
                     { "data": "pay_type", "autoWidth": true },
 
-                    ]
+                ]
 
             })
 

@@ -7,18 +7,18 @@
     Layout = "~/Views/Shared/userView/login.cshtml";
 
 }
-<div class="container-fluid">
+<div >
     <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100">
-                <div class="login100-form-title" style="background-image: url(images/bg-02.jpg);">
+        <div>
+            <div class="wrap-login100" style="top:70px; left:20%">
+                <div class="login100-form-title">
                     <span class="login100-form-title-1">
-
+                        SIGN IN
                     </span>
                 </div>
-                <div class="col-4">
-                    <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
-                    <form class="login100-form validate-form" action="Verify" method="post">
+                <div class="col-10">
+                    @*<h1 class="h3 mb-3 font-weight-normal">Sign in</h1>*@
+                    <form class="login100-form validate-form" action="@Url.Action("Verify", "Login")" method="post">
 
                         <div class="wrap-input100 validate-input m-b-26">
                             <span class="label-input100">Username</span>
@@ -48,14 +48,18 @@
                             </div>
 
                         </div>
-                        <button class="btn login100-form-btn btn-primary btn-block" type="submit">Login</button>
+                        <button id="btnLogin" class="btn login100-form-btn btn-primary btn-block" type="submit">Login</button>
 
 
 
-
-                        <div class="login-status">
-                            @Html.DisplayFor(model => model.status_)
-                        </div>
+                        <center>
+                            @if (Model != null && Model.status_ != null && Model.status_ != "")
+                            {
+                                <div class="login-status">
+                                    @Html.DisplayFor(model => model.status_)
+                                </div>
+                            }
+                        </center>
 
                     </form>
 
@@ -67,27 +71,30 @@
     </div>
 </div>
 <style>
+
     input[type=text]:hover {
         border: none;
     }
 </style>
 
-<!--===============================================================================================-->
-<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/bootstrap/js/popper.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/daterangepicker/moment.min.js"></script>
-<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-<script src="js/main.js"></script>
 
-<script src="~/Scripts/jquery.validate.min.js"></script>
-<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<!--===============================================================================================-->
+@*<script src="vendor/jquery/jquery-3.2.1.min.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="vendor/animsition/js/animsition.min.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="vendor/bootstrap/js/popper.js"></script>*@
+@*<script src="vendor/bootstrap/js/bootstrap.min.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="vendor/select2/select2.min.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="vendor/daterangepicker/moment.min.js"></script>*@
+@*<script src="vendor/daterangepicker/daterangepicker.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="vendor/countdowntime/countdowntime.js"></script>*@
+<!--===============================================================================================-->
+@*<script src="js/main.js"></script>*@
+
+@*<script src="~/Scripts/jquery.validate.min.js"></script>*@
+@*<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@

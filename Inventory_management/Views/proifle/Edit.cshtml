@@ -6,9 +6,9 @@
 }
 
 
-<div class="signup-form">
-
-    @using (Html.BeginForm("Edit", "proifle", FormMethod.Post, new { enctype = "multipart/form-data" }))
+<div class="signup-form" style="color:white">
+    <center> 
+           @using (Html.BeginForm("Edit", "proifle", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         @Html.AntiForgeryToken()
 
@@ -115,9 +115,10 @@
                 @Html.LabelFor(model => model.shedule, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.DropDownListFor(model => model.shedule, new List<SelectListItem> {
-                                new SelectListItem {Text="30 Days", Value="30 days" },
-                                new SelectListItem {Text="45 Days", Value="45 days" },
-                                new SelectListItem {Text="90 Days", Value="90 days" }
+                                new SelectListItem {Text="Weight loss - 30 Days", Value="D30" },
+                                new SelectListItem {Text="Cardio - 40 Days", Value="D40" },
+                                new SelectListItem {Text="Muscle gain - 45 Days", Value="D45" },
+                                new SelectListItem {Text="Calisthenics - 50 Days", Value="D50" }
                             }, "Select Shedule", new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.shedule, "", new { @class = "text-danger" })
 
@@ -128,9 +129,10 @@
                 @Html.LabelFor(model => model.d_plan, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.DropDownListFor(model => model.d_plan, new List<SelectListItem> {
-                            new SelectListItem {Text="Level 1", Value="Level 1" },
-                            new SelectListItem {Text="Level 2", Value="Level 2" },
-                            new SelectListItem {Text="Level 3", Value="Level 3" }
+                            new SelectListItem {Text="WeightLoss", Value="L1" },
+                            new SelectListItem {Text="Muscle Building", Value="L2" },
+                            new SelectListItem {Text="Athlete", Value="L3" },
+                            new SelectListItem {Text="Cardio / Calisthenics", Value="L4" }
                    }, "Select Dietary Plan", new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.d_plan, "", new { @class = "text-danger" })
                 </div>
@@ -157,7 +159,7 @@
             </div>
         </div>
     }
-
+        </center>
     </div>
 
 
@@ -165,8 +167,19 @@
         @Html.ActionLink("Back", "Details", new { id = Model.regId })
     </div>
 
+
+@Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+<script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+
+
     <script src="~/Scripts/bootstrap.min.js"></script>
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/jquery-1.10.2.intellisense.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>*@
+    @*<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@

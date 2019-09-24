@@ -16,6 +16,10 @@ namespace Login.Controllers
         [HttpGet]
         public ActionResult Login()
         {
+
+
+            login userModel = new login();
+            userModel.status_ = "";
             return View();
         }
 
@@ -25,28 +29,39 @@ namespace Login.Controllers
 
             using (inventorymgtEntities dbModel = new inventorymgtEntities())
             {
-                var pass = userModel.password_;
-                var userDetails = dbModel.users.Where(x => x.email == userModel.username).FirstOrDefault();
-                if (userDetails == null)
+                var pass = userModel.password_ != null ? userModel.password_.ToString() : "";
+                var usrname = userModel.username != null ? userModel.username.ToString(): "";
+                if (pass != null && usrname != null)
+                {
+                    var userDetails = dbModel.users.Where(x => x.email == usrname && x.password_ == pass).FirstOrDefault();
+
+                    if (userDetails != null && userDetails.email != null && userDetails.password_ != null && userDetails.email.Equals("akaamzain@hotmail.com") && userDetails.password_.Equals("1202"))
+                    {
+                        Session["userID"] = userDetails.regId;
+                        Session["user"] = userDetails.fname;
+                        Session["occupation"] = userDetails.ocp;
+
+                        return RedirectToAction("Index", "Search");
+                    }
+                    else if (userDetails == null)
+                    {
+                        userModel.status_ = "Invalid User Credentials.";
+
+                        return View("Login", userModel);
+                    }
+                    else
+                    {
+                        Session["userID"] = userDetails.regId;
+                        Session["user"] = userDetails.fname;
+                        Session["occupation"] = userDetails.ocp;
+                        return View("Welcome");
+                    }
+                }
+                else
                 {
                     userModel.status_ = "Invalid User Credentials.";
 
                     return View("Login", userModel);
-
-                }
-
-                else
-                if (userDetails.email.Equals("akaamzain@hotmail.com") && userDetails.password_.Equals("1202"))
-                {
-
-                    return View("~/Views/Search/Index.cshtml");
-                }
-
-                else
-                {
-                    Session["userID"] = userDetails.regId;
-                    Session["user"] = userDetails.fname;
-                    return View("Welcome");
                 }
 
             }
@@ -54,14 +69,19 @@ namespace Login.Controllers
 
         }
 
+        public ActionResult Welcome()
+        {
+            return View("Welcome");
+        }
+
         public ActionResult LogOut()
         {
-
-            int userId = (int)Session["userID"];
-            Session.Abandon();
+            if (Session["userID"] != null)
+            {
+                int userId = (int)Session["userID"];
+                Session.Abandon();
+            }
             return View("Login");
-
-
         }
 
 
