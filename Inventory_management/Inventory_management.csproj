@@ -626,6 +626,7 @@
     <Content Include="Views\Shared\adminView\payment2.cshtml" />
     <Content Include="Views\Shared\adminView\payment4.cshtml" />
     <Content Include="Views\Shared\adminView\payment3.cshtml" />
+    <Content Include="Views\Search\Report.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
