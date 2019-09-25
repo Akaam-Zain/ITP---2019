@@ -73,5 +73,3 @@ namespace Inventory_management.Models
         Professional
     }
 }
-
-//comment

@@ -10,21 +10,20 @@
 
     public class DBModel : DbContext
     {
-        MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=123456;allowuservariables=True");
-
-
-
+      
         public DBModel() : base("name=DBModel")
         {
         }
 
         public List<income> incomeData()
         {
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM income", con);
 
             var model = new List<income>();
-            con.Open();
+            
             MySqlDataReader rdr = cmd.ExecuteReader();
             while (rdr.Read())
             {
@@ -44,9 +43,11 @@
 
         public void incomeInsert(income income)
         {
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("INSERT INTO income (date, category, cash, pos, amount) VALUES (@date, @category, @cash, @pos, @total)", con);
-            con.Open();
+
             cmd.Parameters.AddWithValue("@date", income.date);
             cmd.Parameters.AddWithValue("@category", income.category);
             cmd.Parameters.AddWithValue("@cash", income.cash);
@@ -61,9 +62,11 @@
         public void incomeEdit(income income)
         {
 
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("UPDATE income SET date = @date, category = @category, cash = @cash, pos = @pos, amount = @total WHERE id = @id", con);
-            con.Open();
+
             cmd.Parameters.AddWithValue("@date", income.date);
             cmd.Parameters.AddWithValue("@category", income.category);
             cmd.Parameters.AddWithValue("@cash", income.cash);
@@ -78,9 +81,11 @@
 
         public void deleteIncome(income income)
         {
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("delete from income where id = @id", con);
-            con.Open();
+
             cmd.Parameters.AddWithValue("@id", income.id);
 
             cmd.ExecuteNonQuery();
@@ -90,12 +95,12 @@
 
         public List<daily> dailyData()
         {
-
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM daily", con);
 
             var model = new List<daily>();
-            con.Open();
 
             MySqlDataReader rdr = cmd.ExecuteReader();
             while (rdr.Read())
@@ -115,7 +120,9 @@
 
         public void deleteDaily(daily daily)
         {
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
             con.Open();
+
             MySqlCommand cmd = new MySqlCommand("delete from daily where id = @id", con);
 
             cmd.Parameters.AddWithValue("@id", daily.id);
@@ -126,8 +133,11 @@
         public void editDaily(daily daily)
         {
 
-            MySqlCommand cmd = new MySqlCommand("UPDATE daily SET date = @date, category = @category, savings = @savings, amount = @amount WHERE id = @id", con);
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
             con.Open();
+
+            MySqlCommand cmd = new MySqlCommand("UPDATE daily SET date = @date, category = @category, savings = @savings, amount = @amount WHERE id = @id", con);
+
             cmd.Parameters.AddWithValue("@date", daily.date);
             cmd.Parameters.AddWithValue("@category", daily.category);
             cmd.Parameters.AddWithValue("@savings", daily.savings);
@@ -139,10 +149,11 @@
 
         public void dailyInsert(daily daily)
         {
-
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
 
             MySqlCommand cmd = new MySqlCommand("INSERT INTO daily (date, category, savings, amount) VALUES (@date, @category, @savings, @amount)", con);
-            con.Open();
+
             cmd.Parameters.AddWithValue("@date", daily.date);
             cmd.Parameters.AddWithValue("@category", daily.category);
             cmd.Parameters.AddWithValue("@savings", daily.savings);
@@ -150,6 +161,28 @@
 
             cmd.ExecuteNonQuery();
 
+        }
+
+        public List<statement> statementData(String year, String month)
+        {
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
+            con.Open();
+
+            MySqlCommand cmd = new MySqlCommand("SELECT COALESCE(SUM(amount),0) as income,(SELECT COALESCE(SUM(amount),0) FROM daily WHERE year(date)='"+year+"' and month(date)='"+month+ "') as daily,COALESCE(SUM(amount),0) -(SELECT COALESCE(SUM(amount),0) FROM daily WHERE year(date)='" + year + "' and month(date)='" + month + "') as profit FROM income WHERE year(date)='" + year + "' and month(date)='" + month + "'", con);
+
+            var model = new List<statement>();
+
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                var statement = new statement();
+                statement.incomes = double.Parse(rdr["income"].ToString());
+                statement.dailys = double.Parse(rdr["daily"].ToString());
+                statement.total = double.Parse(rdr["profit"].ToString());
+                model.Add(statement);
+            }
+
+            return model;
         }
 
     }
@@ -172,6 +205,13 @@
         public Double savings { get; set; }
         public Double amount { get; set; }
 
+    }
+
+    public class statement
+    {
+        public Double incomes { get; set; }
+        public Double dailys { get; set; }
+        public Double total { get; set; }
     }
 
 }

@@ -20,7 +20,7 @@ namespace Inventory_management.Models
         {
             this.orderdetails = new HashSet<orderdetail>();
         }
-    
+
         public int product_ID { get; set; }
         public int itemCode { get; set; }
         public int titleID { get; set; }
@@ -28,11 +28,11 @@ namespace Inventory_management.Models
         public string product_name { get; set; }
         public string image { get; set; }
         public string description { get; set; }
-        [Range(0,1000)]
+        [Range(0, 1000)]
         public Nullable<int> quantity { get; set; }
-        [Range(0,50000)]
+        [Range(0, 50000)]
         public Nullable<float> price { get; set; }
-    
+
         public virtual inventory inventory { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<orderdetail> orderdetails { get; set; }

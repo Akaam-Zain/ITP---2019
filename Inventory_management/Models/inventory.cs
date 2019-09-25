@@ -24,16 +24,16 @@ namespace Inventory_management.Models
         public int itemCode { get; set; }
         [Required]
         public string name { get; set; }
-        [Range(0,1000)]
-        public Nullable<int> quantity { get; set; }
+        [Range(0, 1000)]
+        public int quantity { get; set; }
         public string type { get; set; }
         public string image { get; set; }
-        public Nullable<System.DateTime> purchased_date { get; set; }
+        public System.DateTime purchased_date { get; set; }
         [Required]
         public int supplier { get; set; }
         [Required]
         public string catergory { get; set; }
-    
+
         public virtual supplier supplier1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<storeproduct> storeproducts { get; set; }
@@ -51,8 +51,8 @@ namespace Inventory_management.Models
     public enum catergory
     {
 
-      Store,
-      GYM
+        Store,
+        GYM
 
     }
 }
