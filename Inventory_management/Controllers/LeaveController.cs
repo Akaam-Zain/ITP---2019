@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using Inventory_management.Models;
 
 namespace connection.Controllers
 {
     public class LeaveController : Controller
     {
+
+        inventorymgtEntities inventorymgtEntities = new inventorymgtEntities();
         // GET: Leave
         public ActionResult Index()
         {
@@ -18,6 +22,25 @@ namespace connection.Controllers
             }
         }
 
+
+        //Report generation 
+
+        public ActionResult ExportLeaveListing()
+        {
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/Leave/Leave.rpt")));
+            rd.SetDataSource(inventorymgtEntities.leaves.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+            String savedFileName = string.Format("LeaveListing_{0}", DateTime.Now);
+            return File(str, "application/pdf", savedFileName);
+
+        }
         // GET: Leave/Details/5
         public ActionResult Details(int id)
         {

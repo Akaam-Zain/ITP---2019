@@ -1,22 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using Inventory_management.Models;
 
 namespace Inventory_management.Controllers
 {
     public class AttendanceController : Controller
     {
+
+        inventorymgtEntities inventorymgtEntities = new inventorymgtEntities();
         // GET: Attendance
         public ActionResult Index()
         {
+
             using (inventorymgtEntities inventorymgtEntities = new inventorymgtEntities())
             {
                 return View(inventorymgtEntities.attendance_emp.ToList());
             }
         }
+
+
+
+        //Report generation 
+
+        public ActionResult ExportAttendanceListing()
+        {
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/Attendance/Attendance.rpt")));
+            rd.SetDataSource(inventorymgtEntities.attendance_emp.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+            String savedFileName = string.Format("AttendanceListing_{0}", DateTime.Now);
+            return File(str, "application/pdf", savedFileName);
+
+        }
+
+
 
         // GET: Attendance/Details/5
         public ActionResult Details(int id)
