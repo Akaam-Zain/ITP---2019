@@ -1,5 +1,4 @@
-﻿
-using System.IO;
+﻿using System.IO;
 
 using System;
 using System.Collections.Generic;
@@ -61,8 +60,9 @@ namespace Login.Controllers
 
         }
 
-        [HttpPost]
-        [ActionName("deleteUser")]
+
+        //[HttpPost]
+        //[ActionName("deleteUser")]
         public ActionResult deleteUser(int id)
         {
 
