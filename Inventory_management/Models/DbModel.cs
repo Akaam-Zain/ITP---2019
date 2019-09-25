@@ -17,7 +17,7 @@
 
         public List<income> incomeData()
         {
-            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=sangeeth;allowuservariables=True");
+            MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=inventorymgt;password=password;allowuservariables=True");
             con.Open();
 
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM income", con);
