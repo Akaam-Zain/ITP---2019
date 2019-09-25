@@ -2,7 +2,7 @@
 
 
 @{
-    Layout = "~/Views/Shared/adminView/admin.cshtml";
+    Layout = "~/Views/Shared/adminView/profile.cshtml";
 }
 
 
@@ -13,7 +13,6 @@
         /*td {
                 background-color: #808080;
             }*/
-
         /*tr td:hover {
                 background-color: #c2c2c2;
             }*/
@@ -139,41 +138,29 @@
     @*<script src="~/Scripts/jquery-3.4.1.min.js"></script>*@
     <script>
         $(document).ready(function () {
-
             function Contains(text_one, text_two) {
                 if (text_one.indexOf(text_two) != -1)
                     return true;
             }
-
-
             $("#Search").keyup(function () {
                 var searchText = $("#Search").val().toLowerCase();
                 $(".Search").each(function () {
-
                     if (!Contains($(this).text().toLowerCase(), searchText)) {
                         $(this).hide();
                     }
                     else {
-
                         $(this).show();
                     }
                 });
-
             });
-
         });
-
         $('.tablecontainer').on('click', 'a.popup', function (e) {
             e.preventDefault();
             OpenPopup($(this).attr('href'));
         })
-
         function OpenPopup(pageUrl) {
-
             var $pageContent = $('<div />');
             $pageContent.load(pageUrl);
-
-
             $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
                 .html($pageContent)
                 .dialog({
@@ -188,7 +175,6 @@
                         $dialog.dialog('destroy').remove();
                     }
                 });
-
             $('.popupWindow').on('submit', '#popupForm', function (e) {
                 var url = $('#popupForm')[0].action;
                 $.ajax({
@@ -205,28 +191,8 @@
                 e.preventDefault();
             })
             $dialog.dialog('open');
-
         }
-
     </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

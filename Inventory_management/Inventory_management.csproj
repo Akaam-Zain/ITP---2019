@@ -267,6 +267,12 @@
       <DependentUpon>OrderReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Report\Profile\ProfileReport.cs" />
+    <Compile Include="Report\Profile\ProfileReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileReport.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Report\Schedule\ScheduleReport.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -640,6 +646,7 @@
     <Content Include="Views\Search\Report.cshtml" />
     <Content Include="Views\Finance\statement.cshtml" />
     <Content Include="Views\Finance\statementData.cshtml" />
+    <Content Include="Views\Shared\adminView\profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -663,6 +670,10 @@
     <EmbeddedResource Include="Report\Order\OrderReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>OrderReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Profile\ProfileReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProfileReport1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\Schedule\ScheduleReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

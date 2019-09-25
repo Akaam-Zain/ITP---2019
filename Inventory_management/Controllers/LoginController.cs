@@ -23,6 +23,7 @@ namespace Login.Controllers
             return View();
         }
 
+
         [HttpPost]
         public ActionResult Verify(Inventory_management.Models.login userModel)
         {

@@ -238,7 +238,9 @@ namespace Inventory_management.Controllers
                     if (DateTime.Now.Date.CompareTo(DateTime.Parse(atdDetails.date_)) > 0)
                     {
 
-                        dbModel.Entry(atd).State = EntityState.Modified;
+                        atdDetails.no_of_days = atd.no_of_days;
+                        atdDetails.date_ = atd.date_;
+                        dbModel.Entry(atdDetails).State = EntityState.Modified;
                         dbModel.SaveChanges();
                         rdays = rdays - cdays;
 

@@ -57,7 +57,7 @@ namespace Inventory_management.Controllers
                 atnModel.user_ = initialUser.regId;
                 atnModel.no_of_days = 0;
                 atnModel.status_ = "false";
-                atnModel.date_ = DateTime.Now.Date.ToString();
+                atnModel.date_ = DateTime.Now.Date.AddDays(-1).ToString();
                 //atnModel.date_ = DateTime.Now.ToString("MM-dd-yyyy");
 
                 dbModel.attendances.Add(atnModel);
