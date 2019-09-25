@@ -40,7 +40,7 @@ namespace Inventory_management.Models
         [Required(ErrorMessage = "Date of Birth has to be filled")]
         public string bday { get; set; }
         [Required(ErrorMessage = "NIC has to be filled")]
-        [StringLength(12, MinimumLength = 10, ErrorMessage = "NIC should have 10-12 characters")]
+        [StringLength(12, MinimumLength = 10, ErrorMessage = "Invalid NIC")]
         public string nic { get; set; }
         [Required(ErrorMessage = "Email has to be filled")]
         [StringLength(150, MinimumLength = 7, ErrorMessage = "Please enter proper email")]

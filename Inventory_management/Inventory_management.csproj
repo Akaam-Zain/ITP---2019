@@ -248,6 +248,24 @@
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Attendance\Attendance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attendance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Employee\Employee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Employee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Leave\Leave.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Leave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Order\OrderReport.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -644,6 +662,18 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Report\Attendance\Attendance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Attendance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Employee\Employee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Employee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Leave\Leave.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Leave.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\Order\OrderReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>OrderReport1.cs</LastGenOutput>

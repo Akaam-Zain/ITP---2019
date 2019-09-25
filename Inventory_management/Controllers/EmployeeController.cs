@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using Inventory_management.Models;
 
 namespace Inventory_management.Controllers
 {
     public class EmployeeController : Controller
     {
-     
-  
+
+        inventorymgtEntities employeeModels = new inventorymgtEntities();
 
         // GET: Employee
         public ActionResult Index()
@@ -20,6 +22,33 @@ namespace Inventory_management.Controllers
                 return View(employeeModels.employees.ToList());
             }
         }
+
+
+
+        //Report generation 
+
+        public ActionResult ExportEmployeeListing()
+        {
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/Employee/Employee.rpt")));
+            rd.SetDataSource(employeeModels.employees.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0,SeekOrigin.Begin);
+            String savedFileName = string.Format("EmployeeListing_{0}",DateTime.Now);
+            return File(str,"application/pdf",savedFileName);
+
+        }
+
+
+
+
+
+
 
         // GET: Employee/Details/5
         public ActionResult Details(int id)
