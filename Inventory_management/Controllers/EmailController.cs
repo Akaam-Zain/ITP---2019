@@ -37,6 +37,7 @@ namespace Inventory_management.Controllers
             ViewBag.Message = "Mail has been sent Successfully! ";
 
 
+
             return View();
         }
     }

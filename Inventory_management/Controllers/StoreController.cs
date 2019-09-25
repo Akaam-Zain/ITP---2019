@@ -30,7 +30,10 @@ namespace Inventory_management.Controllers
         //   // var productList = db.storeproducts.OrderByDescending(x => x.productID).ToPagedList(pagenumber, pageSize);
         //    return PartialView(productList);
         //}
-
+        public ActionResult Create()
+        {
+            return View();
+        }
         // POST: Inventory/Create
         [HttpPost]
         public ActionResult Create(storeproduct st)

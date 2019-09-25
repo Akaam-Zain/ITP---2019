@@ -25,41 +25,50 @@
         @using (Html.BeginForm("Index", "Email", FormMethod.Post, new { enctype = "multi/form-data" }))
         {
 
-            <table >
-                <tr>
-                    <td style="width:90px;" >
+            <table class="bg-light col-md-8" >
+                <tr >
+                    <td style="width:90px;font-weight:bold;">
                         To:
                     </td>
-                    <td >@Html.TextBoxFor(model => model.To)</td>
+                    <td>@Html.TextBoxFor(model => model.To)</td>
                 </tr>
-
+               
                 <tr>
-                    <td style="width:90px;">
+                    <td style="width:90px;font-weight:bold">
                         Subject:
                     </td>
                     <td>@Html.TextBoxFor(model => model.Subject)</td>
                 </tr>
 
                 <tr>
-                    <td style="width:100px;">
-                        Subject:
+                    <td style="width:100px;font-weight:bold;">
+                        Body
                     </td>
                     <td>@Html.TextAreaFor(model => model.Body, new { rows = "15", cols = "50" })</td>
                 </tr>
+                
+                    <tr>
+                        <td>
+                            
+                               <input class="btn btn-dark" type="submit" value="Send" />
 
-                <tr>
-                    <td>
-                        <input type="submit" value="Send" />
-                    </td>
-
-                </tr>
-
+</tr>
+                
 
 
             </table>
         }
 
 
+        @if(ViewBag.Message!=null)
+        {
+
+            <script type="text/javascript">
+                 window.onload = function () {
+                 alert("Reorder Email has been send to the supplier");
+    }        
+            </script>
+        }
 
     </div>
 </body>
