@@ -287,6 +287,14 @@
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Diet Plans\DietPlan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Diet Plans\DietPlan1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DietPlan.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Report\InventoryRep\InventoryReport.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -314,6 +322,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ScheduleReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\UserReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
@@ -700,6 +714,10 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Report\Diet Plans\DietPlan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DietPlan1.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\InventoryRep\InventoryReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>InventoryReport1.cs</LastGenOutput>
@@ -715,6 +733,10 @@
     <EmbeddedResource Include="Report\Schedule\ScheduleReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>ScheduleReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\UserReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>UserReport.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

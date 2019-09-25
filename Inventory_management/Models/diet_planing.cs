@@ -17,7 +17,7 @@ namespace Inventory_management.Models
         public int dietID { get; set; }
         public string name { get; set; }
         public string pdf { get; set; }
-        public Nullable<float> bmi { get; set; }
+        public float bmi { get; set; }
         public string age_range { get; set; }
         public string category { get; set; }
         public string food_type { get; set; }

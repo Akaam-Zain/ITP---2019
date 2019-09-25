@@ -6,6 +6,9 @@ using System.Web.Mvc;
 using Inventory_management.Models;
 
 using System.Data.Entity;
+using CrystalDecisions.CrystalReports.Engine;
+using System.IO;
+
 namespace T3.Controllers
 {
     public class DeitController : Controller
@@ -48,6 +51,23 @@ namespace T3.Controllers
                 return View();
             }
         }
+
+        public ActionResult ExportDietPlan()
+        {
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/Diet Plans/DietPlan.rpt")));
+            rd.SetDataSource(db1.diet_planing.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+            string savedFilename = string.Format("DietPlan_{0}", DateTime.Now);
+            return File(str, "application/pdf", savedFilename);
+        }
+
 
         // GET: Deit/Edit/5
         public ActionResult Edit(int id)

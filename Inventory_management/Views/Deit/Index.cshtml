@@ -7,82 +7,85 @@
 
     <center>  <h2 class="text-danger">Diet Management</h2></center>
 
-<div class="container-fluid ">
+    <div class="container-fluid ">
 
-    <div class="form-group " style="float:right">
-        <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></span>
-      
-                <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
-            </p>
+        <div class="col-4" style="float:right">
+            <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
         </div>
-    </div>
 
-    <p>
-        <button type="button" class="btn btn-success">
-            @Html.ActionLink("Create New", "Create", null, new { style = "text-decoration:none;color:white" })
-        </button>
-    </p>
-    <table class="table">
-        <tr class="Search">
-            <th>
-                @Html.DisplayNameFor(model => model.dietID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.pdf)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.bmi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.age_range)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.food_type)
-            </th>
-            <th></th>
-        </tr>
+        <p>
+            <button type="button" class="btn btn-success">
+                @Html.ActionLink("Create New", "Create", null, new { style = "text-decoration:none;color:white" })
+            </button>
 
-        @foreach (var item in Model)
-        {
+            <a href="@Url.Action("ExportDietPlan")" class="btn btn-primary">Generate Report</a>
+        <p>
+
+
+        </p>
+        </p>
+
+        </p>
+        <table class="table">
             <tr class="Search">
-                <td>
-                    @Html.DisplayFor(modelItem => item.dietID)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.pdf)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.bmi)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.age_range)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.category)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.food_type)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.dietID }, new { @class = "btn btn-success" }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.dietID }, new { @class = "btn btn-dark" }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.dietID }, new { @class = "btn btn-danger" })
-                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.dietID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.pdf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.bmi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.age_range)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.food_type)
+                </th>
+                <th></th>
             </tr>
-        }
 
-    </table>
-</div>
+            @foreach (var item in Model)
+            {
+                <tr class="Search">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.dietID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.pdf)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.bmi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.age_range)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.food_type)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.dietID }, new { @class = "btn btn-success" }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.dietID }, new { @class = "btn btn-dark" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.dietID }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <script>
     $(document).ready(function () {
