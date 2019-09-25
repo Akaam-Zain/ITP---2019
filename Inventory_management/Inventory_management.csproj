@@ -259,6 +259,12 @@
       <DependentUpon>Inventory.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Report\Member\member.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>member.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Order\OrderReport.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -588,10 +594,6 @@
     <Content Include="Views\Member\Create.cshtml" />
     <Content Include="Views\Member\Delete.cshtml" />
     <Content Include="Views\Member\Details.cshtml" />
-    <Content Include="Views\Trainer\Create.cshtml" />
-    <Content Include="Views\Trainer\Delete.cshtml" />
-    <Content Include="Views\Trainer\Details.cshtml" />
-    <Content Include="Views\Trainer\Index.cshtml" />
     <Content Include="Views\Schedule\Create.cshtml" />
     <Content Include="Views\Schedule\Delete.cshtml" />
     <Content Include="Views\Schedule\Details.cshtml" />
@@ -631,7 +633,11 @@
     <Content Include="Views\Bill\Edit.cshtml" />
     <Content Include="Views\Bill\Delete.cshtml" />
     <Content Include="Views\Member\Edit.cshtml" />
+    <Content Include="Views\Trainer\Create.cshtml" />
+    <Content Include="Views\Trainer\Index.cshtml" />
     <Content Include="Views\Trainer\Edit.cshtml" />
+    <Content Include="Views\Trainer\Delete.cshtml" />
+    <Content Include="Views\Trainer\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -655,6 +661,10 @@
     <EmbeddedResource Include="Report\Inventory\Inventory.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Inventory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Member\member.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>member.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report\Order\OrderReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

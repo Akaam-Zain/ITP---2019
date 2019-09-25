@@ -11,15 +11,14 @@
 <div class="container-fluid ">
     <center>  <h2 class="text-danger">Payment Management (Inventory)</h2></center>
     <a href="@Url.Action("Create")" class="btn btn-success">Create New</a>
+    <a href="@Url.Action("ExportInventoryListing")" class="btn btn-success">Create Report </a>
     <div class="form-group" style="float:right">
         <div class="input-group">
             <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
         </div>
     </div>
 </div>
-<p>
-    @Html.ActionLink("Export Inventory Listing ", "ExportInventoryListing")
-</p>
+
 <br>
 
 <table class="table">
