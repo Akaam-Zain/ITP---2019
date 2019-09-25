@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/adminView/payment2.cshtml";
 
 }
-<h2>Edit</h2>
+
 
 
 @using (Html.BeginForm())
@@ -13,7 +13,8 @@
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h4>inventory_pay</h4>
+        <br />
+        <h4> Edit Inventory Payment</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -66,7 +67,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Save" class="btn btn-danger" />
             </div>
         </div>
     </div>

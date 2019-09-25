@@ -5,6 +5,7 @@
     Layout = "~/Views/Shared/adminView/payment2.cshtml";
 
 }
+<br />
 <h2> Inventory Details</h2>
 
 <div>
@@ -62,6 +63,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.paymentId }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.paymentId },new { @class = "btn btn-primary", @style = "text-decoration:none;color:white;" }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

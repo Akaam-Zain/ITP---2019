@@ -247,6 +247,18 @@
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\BillReport\bill.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Inventory\Inventory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Report\Order\OrderReport.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -570,22 +582,15 @@
     <Content Include="Views\Leave\Details.cshtml" />
     <Content Include="Views\Leave\Edit.cshtml" />
     <Content Include="Views\Leave\Index.cshtml" />
-    <Content Include="Views\Salary\Index.cshtml" />
+    <Content Include="Views\Order\Salary\Index.cshtml" />
     <Content Include="Views\Shared\adminView\adminEmployee.cshtml" />
     <Content Include="Views\Shared\userView\login.cshtml" />
     <Content Include="Views\Member\Create.cshtml" />
     <Content Include="Views\Member\Delete.cshtml" />
     <Content Include="Views\Member\Details.cshtml" />
-    <Content Include="Views\Member\Edit.cshtml" />
-    <Content Include="Views\Bill\Create.cshtml" />
-    <Content Include="Views\Bill\Delete.cshtml" />
-    <Content Include="Views\Bill\Details.cshtml" />
-    <Content Include="Views\Bill\Edit.cshtml" />
-    <Content Include="Views\Bill\Index.cshtml" />
     <Content Include="Views\Trainer\Create.cshtml" />
     <Content Include="Views\Trainer\Delete.cshtml" />
     <Content Include="Views\Trainer\Details.cshtml" />
-    <Content Include="Views\Trainer\Edit.cshtml" />
     <Content Include="Views\Trainer\Index.cshtml" />
     <Content Include="Views\Schedule\Create.cshtml" />
     <Content Include="Views\Schedule\Delete.cshtml" />
@@ -620,6 +625,13 @@
     <Content Include="Views\Shared\adminView\payment2.cshtml" />
     <Content Include="Views\Shared\adminView\payment4.cshtml" />
     <Content Include="Views\Shared\adminView\payment3.cshtml" />
+    <Content Include="Views\Bill\Index.cshtml" />
+    <Content Include="Views\Bill\Create.cshtml" />
+    <Content Include="Views\Bill\Details.cshtml" />
+    <Content Include="Views\Bill\Edit.cshtml" />
+    <Content Include="Views\Bill\Delete.cshtml" />
+    <Content Include="Views\Member\Edit.cshtml" />
+    <Content Include="Views\Trainer\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -636,6 +648,14 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Report\BillReport\bill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>bill.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Inventory\Inventory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Inventory.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report\Order\OrderReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>OrderReport1.cs</LastGenOutput>

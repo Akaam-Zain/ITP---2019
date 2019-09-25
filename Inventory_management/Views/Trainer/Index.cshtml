@@ -39,25 +39,25 @@
 
     @foreach (var item in Model)
     {
-        <tr class="Search">
-            <td>
-                @Html.DisplayFor(modelItem => item.PaymentID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Amount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.paymentDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Month)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.PaymentID }, null) |
-                @Html.ActionLink("Details", "Details", new { id = item.PaymentID }, null) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.PaymentID }, null)
-            </td>
-        </tr>
+<tr class="Search">
+    <td>
+        @Html.DisplayFor(modelItem => item.PaymentID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Amount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.paymentDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Month)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.TrainerID }, new { @class = "btn btn-primary", @style = "text-decoration:none;color:white;" })
+        @Html.ActionLink("Details", "Details", new { id = item.TrainerID }, new { @class = "btn btn-dark", @style = "text-decoration:none;color:white;" })
+        @Html.ActionLink("Delete", "Delete", new { id = item.TrainerID }, new { @class = "btn btn-danger", @style = "text-decoration:none;color:white;" })
+    </td>
+</tr>
     }
 
 </table>

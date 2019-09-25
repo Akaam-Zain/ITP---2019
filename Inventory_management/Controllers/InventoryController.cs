@@ -20,6 +20,8 @@ namespace Inventory_management.Controllers
 
             }
 
+
+
         }
 
         // GET: Inventory/Details/5
