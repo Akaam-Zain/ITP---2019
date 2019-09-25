@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using Inventory_management.Models;
 
 namespace Inventory_management.Controllers
 {
     public class Inventory_payController : Controller
     {
+        inventorymgtEntities dbmodel = new inventorymgtEntities();
         // GET: Inventory
         public ActionResult Index()
 
@@ -127,5 +130,27 @@ namespace Inventory_management.Controllers
                 return View();
             }
         }
+
+
+
+        public ActionResult ExportInventoryListing()
+        {
+
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/Inventory/Inventory.rpt")));
+            rd.SetDataSource(dbmodel.inventory_pay.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+            String savedFileName = string.Format("InventoryListing_{0}", DateTime.Now);
+            return File(str, "application/pdf", savedFileName);
+
+
+        }
+
     }
 }

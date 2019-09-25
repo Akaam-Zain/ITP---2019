@@ -2,50 +2,59 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/adminView/payment4.cshtml";
-
+    Layout = "~/Views/Shared/adminView/payment3.cshtml";
 }
-<h2>Details</h2>
+}
 
-<div>
-    <h4>trainer</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.PaymentID)
-        </dt>
+<!DOCTYPE html>
 
-        <dd>
-            @Html.DisplayFor(model => model.PaymentID)
-        </dd>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>trainer</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.PaymentID)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Amount)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.PaymentID)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Amount)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Amount)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.paymentDate)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Amount)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.paymentDate)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.paymentDate)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Month)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.paymentDate)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Month)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Month)
+            </dt>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.TrainerID }, null) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+            <dd>
+                @Html.DisplayFor(model => model.Month)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.TrainerID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

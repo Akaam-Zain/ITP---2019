@@ -4,7 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using Inventory_management.Models;
+using System.IO;
 
 namespace Inventory_management.Controllers
 {
@@ -27,6 +29,26 @@ namespace Inventory_management.Controllers
             
         }
 
+
+        public ActionResult ExportBillListing()
+        {
+
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/BillReport/bill.rpt")));
+            rd.SetDataSource(dbmodel.bills.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+            String savedFileName = string.Format("OrderListing_{0}",DateTime.Now);
+            return File(str,"application/pdf",savedFileName);
+            
+
+        }
+
         // GET: Bill/Details/5
         public ActionResult Details(int id)
         {
@@ -43,23 +65,16 @@ namespace Inventory_management.Controllers
             return View();
         }
 
-        // POST: Bill/Create
+        // POST: Bill/Create to database
         [HttpPost]
         public ActionResult Create(bill Bill)
         {
-            try
-            {               
-                    dbmodel.bills.Add(Bill);
-                    dbmodel.SaveChanges();
-                
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
+            using (DBModel dBModel = new DBModel())
             {
-                return View();
+                dbmodel.bills.Add(Bill);
+                dbmodel.SaveChanges();
             }
+            return RedirectToAction("Index"); 
         }
 
         // GET: Bill/Edit/5

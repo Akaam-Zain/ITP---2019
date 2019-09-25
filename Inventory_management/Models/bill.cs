@@ -16,7 +16,7 @@ namespace Inventory_management.Models
     {
         public int billId { get; set; }
         public string Type { get; set; }
-        public Nullable<double> Amount { get; set; }
-        public Nullable<System.DateTime> Payment_Date { get; set; }
+        public double Amount { get; set; }
+        public System.DateTime Payment_Date { get; set; }
     }
 }

@@ -5,13 +5,24 @@
     Layout = "~/Views/Shared/adminView/payment3.cshtml";
 
 }
+<br />
 
-<h2>Index</h2>
+<div class="container-fluid ">
+    <center>  <h2 class="text-danger">Payment Management (Member)</h2></center>
+    <a href="@Url.Action("Create")" class="btn btn-success">Create New</a>
+    <a href="@Url.Action("ExportMemberListing")" class="btn btn-success">Create Report </a>
+    <div class="form-group" style="float:right">
+        <div class="input-group">
+            <input type="text" placeholder="Search" id="Search" aria-label="Search" class="form-control" />
+        </div>
+    </div>
+</div>
+<br>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
+
 <table class="table">
+    <tr class="Search">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.PaymentId)
@@ -35,8 +46,10 @@
     </tr>
 
     @foreach (var item in Model)
+
     {
-        <tr>
+        <tr class="Search">
+
             <td>
                 @Html.DisplayFor(modelItem => item.PaymentId)
             </td>
@@ -56,11 +69,40 @@
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "Edit", new { id = item.PaymentId }, new { @class = "btn btn-primary", @style = "text-decoration:none;color:white;" })
+                @Html.ActionLink("Details", "Details", new { id = item.PaymentId }, new { @class = "btn btn-dark", @style = "text-decoration:none;color:white;" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.PaymentId }, new { @class = "btn btn-danger", @style = "text-decoration:none;color:white;" })
             </td>
         </tr>
     }
 
 </table>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        function Contains(text_one, text_two) {
+            if (text_one.indexOf(text_two) != -1)
+                return true;
+        }
+
+
+        $("#Search").keyup(function () {
+            var searchText = $("#Search").val().toLowerCase();
+            $(".Search").each(function () {
+
+                if (!Contains($(this).text().toLowerCase(), searchText)) {
+                    $(this).hide();
+                }
+                else {
+
+                    $(this).show();
+                }
+            });
+
+        });
+
+    });
+
+</script>

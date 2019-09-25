@@ -22,9 +22,9 @@ namespace Inventory_management.Models
         [Required(ErrorMessage = "Memberhip has to be filled")]
         public string MemberShip { get; set; }
         [Required(ErrorMessage = "Amount has to be filled")]
-        public Nullable<double> Amount { get; set; }
+        public double Amount { get; set; }
         [Required(ErrorMessage = "Date has to be filled")]
-        public Nullable<System.DateTime> MemberShipValidateDate { get; set; }
+        public System.DateTime MemberShipValidateDate { get; set; }
         [Required(ErrorMessage = "Status has to be filled")]
         public string Status { get; set; }
     }
