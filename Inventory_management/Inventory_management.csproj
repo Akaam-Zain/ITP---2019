@@ -191,6 +191,7 @@
     <Compile Include="Controllers\BillController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DeitController.cs" />
+    <Compile Include="Controllers\DietUserController.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\FinanceController.cs" />
@@ -698,6 +699,8 @@
     <Content Include="Views\Finance\statementData.cshtml" />
     <Content Include="Views\Shared\adminView\profile.cshtml" />
     <Content Include="Views\Salary\Index.cshtml" />
+    <Content Include="Views\DietUser\Index.cshtml" />
+    <Content Include="Views\DietUser\Image1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
