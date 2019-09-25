@@ -60,7 +60,7 @@ namespace Login.Controllers
         }
 
         [HttpPost]
-        [ActionName("viewUser")]
+        [ActionName("deleteUser")]
         public ActionResult deleteUser(int id)
         {
 
