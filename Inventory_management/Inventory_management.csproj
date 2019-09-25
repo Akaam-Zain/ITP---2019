@@ -227,6 +227,7 @@
     <Compile Include="Models\orderdetail.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\RequiredLengthAttribute.cs" />
     <Compile Include="Models\salary.cs" />
     <Compile Include="Models\schedule.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
