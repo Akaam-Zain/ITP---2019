@@ -5,17 +5,22 @@ using System.Web;
 using System.Web.Mvc;
 using Inventory_management.Models;
 using System.Data.Entity;
+using CrystalDecisions.CrystalReports.Engine;
+using System.IO;
 
 namespace Inventory_management.Controllers
 {
     public class InventoryController : Controller
     {
+
+        inventorymgtEntities db = new inventorymgtEntities();
+
         // GET: InventoryC:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\Controllers\InventoryController.cs
         public ActionResult Index()
         {
             using (inventorymgtEntities invtModel = new inventorymgtEntities())
             {
-                
+
                 return View(invtModel.inventories.ToList());
 
             }
@@ -44,7 +49,7 @@ namespace Inventory_management.Controllers
             {
                 using (inventorymgtEntities invtModel = new inventorymgtEntities())
                 {
-                   
+
                     invtModel.inventories.Add(invent);
                     invtModel.SaveChanges();
                 }
@@ -117,11 +122,29 @@ namespace Inventory_management.Controllers
         {
             using (inventorymgtEntities invtModel = new inventorymgtEntities())
             {
-                return View(invtModel.inventories.Where(x => x.itemCode == id ).FirstOrDefault());
+                return View(invtModel.inventories.Where(x => x.itemCode == id).FirstOrDefault());
 
             }
 
 
+        }
+
+
+        public ActionResult ExportOrderListing()
+        {
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/Report/InventoryRep/InventoryReport.rpt")));
+            rd.SetDataSource(db.inventories.ToList());
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+            Stream str = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            str.Seek(0, SeekOrigin.Begin);
+
+            string savedFileName = string.Format("InventoryReport_{0}", DateTime.Now);
+            return File(str, "application/pdf", savedFileName);
         }
 
 

@@ -16,7 +16,7 @@ namespace Inventory_management.Models
 
     public partial class member
     {
-        
+
         public int PaymentId { get; set; }
         public string CustomerID { get; set; }
         [Required(ErrorMessage = "Memberhip has to be filled")]

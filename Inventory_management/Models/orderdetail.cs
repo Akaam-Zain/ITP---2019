@@ -11,14 +11,14 @@ namespace Inventory_management.Models
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class orderdetail
     {
         public int orderID { get; set; }
         public int product_ID { get; set; }
         public Nullable<int> quantity { get; set; }
         public Nullable<float> price { get; set; }
-    
+
         public virtual order order { get; set; }
         public virtual storeproduct storeproduct { get; set; }
     }

@@ -20,21 +20,21 @@ namespace Inventory_management.Models
         {
             this.orderdetails = new HashSet<orderdetail>();
         }
-    
+
         public int orderID { get; set; }
         public System.DateTime orderDate { get; set; }
         public string paymentType { get; set; }
         public string status { get; set; }
-      //  [Required(ErrorMessage = "Name ID has to be filled")]
-        
+        //  [Required(ErrorMessage = "Name ID has to be filled")]
+
         public string customerName { get; set; }
-      //  [Required(ErrorMessage = "Contact has to be filled")]
+        //  [Required(ErrorMessage = "Contact has to be filled")]
         public string customerPhone { get; set; }
-      //  [Required(ErrorMessage = "Email has to be filled")]
+        //  [Required(ErrorMessage = "Email has to be filled")]
         public string customerEmail { get; set; }
-      //  [Required(ErrorMessage = "Address has to be filled")]
+        //  [Required(ErrorMessage = "Address has to be filled")]
         public string customerAddress { get; set; }
-    
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<orderdetail> orderdetails { get; set; }
     }
