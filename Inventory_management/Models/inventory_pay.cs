@@ -17,8 +17,8 @@ namespace Inventory_management.Models
         public int paymentId { get; set; }
         public string Type { get; set; }
         public string ItemCode { get; set; }
-        public Nullable<decimal> Amount { get; set; }
-        public Nullable<System.DateTime> PayementDate { get; set; }
+        public decimal Amount { get; set; }
+        public System.DateTime PayementDate { get; set; }
         public string Month { get; set; }
     }
 }

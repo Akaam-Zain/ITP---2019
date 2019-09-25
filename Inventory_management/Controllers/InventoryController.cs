@@ -5,11 +5,15 @@ using System.Web;
 using System.Web.Mvc;
 using Inventory_management.Models;
 using System.Data.Entity;
+using CrystalDecisions.CrystalReports.Engine;
+using System.IO;
 
 namespace Inventory_management.Controllers
 {
     public class InventoryController : Controller
     {
+         inventorymgtEntities dbmodel = new inventorymgtEntities();
+
         // GET: InventoryC:\Users\Akaam Zain\Documents\SLIIT\ITP\Sky Gym\Inventory_management\Controllers\InventoryController.cs
         public ActionResult Index()
         {
@@ -19,7 +23,7 @@ namespace Inventory_management.Controllers
                 return View(invtModel.inventories.ToList());
 
             }
-
+            
 
 
         }
