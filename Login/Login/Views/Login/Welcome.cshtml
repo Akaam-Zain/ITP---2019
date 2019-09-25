@@ -1,0 +1,65 @@
+﻿@model Login.Models.user
+
+@{
+    ViewBag.Title = "Welcome";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+
+   
+}
+
+<style>
+
+    .hdr {
+        margin-top: 50px;
+        padding-top:25px;
+        padding-left: 30px;
+        width: 50%;
+        height:100px;
+        background-color: #272323;
+        border-radius:0 20px 20px 0;  
+        border: 1px #ccc;
+        
+    }
+
+
+    h2{
+        color:white;
+    }
+    #Button1{
+        padding: 8px;
+        float:right;
+        text-align:center;
+        margin-top:-40px;
+        border-radius:5px 1px 1px 5px;
+        border:1px #808080;
+    }
+    #Button1:hover{
+        border: 2px #4cff00;
+        background-color: greenyellow;
+    }
+
+
+</style>
+
+<fieldset>
+    
+    @if (Session["user"] != null)
+    {
+
+        <div class="hdr">
+
+            <h2>Welcome  @Session["user"].ToString() </h2>
+
+            @Html.ActionLink("View Profile", "../proifle/Details",new {id = Session["userID"] })
+
+            <div id="Button1">@Html.ActionLink("Loguot", "LogOut")</div>
+
+        </div>
+
+    }
+    else
+    {
+        Response.Redirect("Login");
+    }
+
+</fieldset>

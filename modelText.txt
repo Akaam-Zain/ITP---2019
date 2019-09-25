@@ -1,0 +1,48 @@
+public HttpPostedFileBase ImageFile { get; set; }
+
+
+
+#######Akaam
+ public enum type
+    {
+
+        Accessories,
+        Equipments,
+        Supplements
+
+    }
+
+    public enum catergory
+    {
+
+      Store,
+      GYM
+
+    }
+
+
+
+
+
+########
+ public enum Gender
+    {
+        Male,
+        Female
+    }
+
+    public enum Category
+    {
+        Muscle_Gain,
+        Weight_loss,
+        Calisthenics,
+        Cardio
+    }
+
+    public enum Level
+    {
+        Beginner,
+        Intermediate,
+        Advance,
+        Professional
+    }

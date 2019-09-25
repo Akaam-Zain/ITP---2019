@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="mydbModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="attendance">
+          <Key>
+            <PropertyRef Name="atdno" />
+          </Key>
+          <Property Name="atdno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="date_" Type="date" />
+          <Property Name="status_" Type="varchar" MaxLength="45" />
+          <Property Name="user_" Type="int" />
+          <Property Name="no_of_days" Type="int" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="45" />
+          <Property Name="password_" Type="varchar" MaxLength="45" />
+          <Property Name="status_" Type="varchar" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="regId" />
+          </Key>
+          <Property Name="regId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fname" Type="varchar" MaxLength="45" />
+          <Property Name="lname" Type="varchar" MaxLength="45" />
+          <Property Name="email" Type="varchar" MaxLength="45" />
+          <Property Name="password_" Type="varchar" MaxLength="45" />
+          <Property Name="age" Type="int" />
+          <Property Name="ocp" Type="varchar" MaxLength="45" />
+          <Property Name="weight_" Type="int" />
+          <Property Name="height" Type="float" />
+          <Property Name="phone" Type="varchar" MaxLength="10" />
+          <Property Name="address" Type="varchar" MaxLength="100" />
+          <Property Name="shedule" Type="varchar" MaxLength="45" />
+          <Property Name="d_plan" Type="varchar" MaxLength="45" />
+          <Property Name="pay_type" Type="varchar" MaxLength="45" />
+          <Property Name="gender" Type="varchar" MaxLength="45" />
+          <Property Name="img_path" Type="varchar" MaxLength="45" />
+        </EntityType>
+        <EntityContainer Name="mydbModelStoreContainer">
+          <EntitySet Name="attendance" EntityType="Self.attendance" Schema="mydb" store:Type="Tables" />
+          <EntitySet Name="login" EntityType="Self.login" Schema="mydb" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="mydb" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="mydbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="attendance">
+          <Key>
+            <PropertyRef Name="atdno" />
+          </Key>
+          <Property Name="atdno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="date_" Type="DateTime" />
+          <Property Name="status_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="user_" Type="Int32" />
+          <Property Name="no_of_days" Type="Int32" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="password_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="status_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="regId" />
+          </Key>
+          <Property Name="regId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fname" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="lname" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="password_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="age" Type="Int32" />
+          <Property Name="ocp" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="weight_" Type="Int32" />
+          <Property Name="height" Type="Single" />
+          <Property Name="phone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="shedule" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="d_plan" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="pay_type" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="gender" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="img_path" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DbModels" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="attendances" EntityType="Self.attendance" />
+          <EntitySet Name="logins" EntityType="Self.login" />
+          <EntitySet Name="users" EntityType="Self.user" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="mydbModelStoreContainer" CdmEntityContainer="DbModels">
+          <EntitySetMapping Name="attendances">
+            <EntityTypeMapping TypeName="mydbModel.attendance">
+              <MappingFragment StoreEntitySet="attendance">
+                <ScalarProperty Name="atdno" ColumnName="atdno" />
+                <ScalarProperty Name="date_" ColumnName="date_" />
+                <ScalarProperty Name="status_" ColumnName="status_" />
+                <ScalarProperty Name="user_" ColumnName="user_" />
+                <ScalarProperty Name="no_of_days" ColumnName="no_of_days" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="logins">
+            <EntityTypeMapping TypeName="mydbModel.login">
+              <MappingFragment StoreEntitySet="login">
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password_" ColumnName="password_" />
+                <ScalarProperty Name="status_" ColumnName="status_" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="mydbModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="regId" ColumnName="regId" />
+                <ScalarProperty Name="fname" ColumnName="fname" />
+                <ScalarProperty Name="lname" ColumnName="lname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password_" ColumnName="password_" />
+                <ScalarProperty Name="age" ColumnName="age" />
+                <ScalarProperty Name="ocp" ColumnName="ocp" />
+                <ScalarProperty Name="weight_" ColumnName="weight_" />
+                <ScalarProperty Name="height" ColumnName="height" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="shedule" ColumnName="shedule" />
+                <ScalarProperty Name="d_plan" ColumnName="d_plan" />
+                <ScalarProperty Name="pay_type" ColumnName="pay_type" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="img_path" ColumnName="img_path" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

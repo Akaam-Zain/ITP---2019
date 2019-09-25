@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mydbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="attendance">
+    <Key>
+      <PropertyRef Name="atdno" />
+    </Key>
+    <Property Name="atdno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date_" Type="DateTime" />
+    <Property Name="status_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="user_" Type="Int32" />
+    <Property Name="no_of_days" Type="Int32" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="password_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="status_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="regId" />
+    </Key>
+    <Property Name="regId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fname" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="lname" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="password_" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="ocp" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="weight_" Type="Int32" />
+    <Property Name="height" Type="Single" />
+    <Property Name="phone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="shedule" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="d_plan" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="pay_type" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="img_path" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DbModels" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="attendances" EntityType="Self.attendance" />
+    <EntitySet Name="logins" EntityType="Self.login" />
+    <EntitySet Name="users" EntityType="Self.user" />
+  </EntityContainer>
+</Schema>

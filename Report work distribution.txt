@@ -1,0 +1,53 @@
+READ THE ENTIRE MESSAGE
+
+*Acknowledgement - Dilki*
+
+*Abstract - Thilini*
+1.Clear statement of project in brief (Check document in courseweb for more details)
+
+
+*List of Figures Needed*
+*Everyone has to send the following :*
+1.One Activity diagrams of your functionality
+2.One Use cases each
+3.Two test cases each (Follow the tabular format given in the report guideline)
+4.Send snapshots of your interfaces (Only the important parts- just 2 snapshots should be fine)
+
+*Other Figures*
+1. System overview -*Niroshan*(just send a small description about the figure)
+2. Database Diagram - *Navoda* (just send a small description about the figure)
+3. Testing activity evaluation image -*Kavindi* (get the image from Devduni and send me a small description about it- who tested,how they tested etc.)
+
+*Please let me know if we have any other figures or tables to be added*
+
+*Introduction - Devduni*
+1. Detailed problem statement
+2. How these problems affect Sky Gym
+3. Why the problem needs a solution
+4. What's the solution that we provide in our system
+5. Structure of rest of the report (I will add this if you find it difficult)
+
+
+*Methodology*
+*##Requirement Analysis - Sangeeth*
+1. Describe how the requirements were gathered 
+2. State the functional and non-functional requirements and how we implemented them (A short description)
+3. 
+
+*##Implementation - Niroshan*
+1.Implementation details
+2.Choice of DBMS, and technologies used
+3. Algorithms and special codes if any
+
+##Conclusion- Akaam
+
+
+If you include any references or abbreviations at any point of the report please send me that as well (List the abbreviations at the end of the your document)
+
+
+
+
+
+
+
+

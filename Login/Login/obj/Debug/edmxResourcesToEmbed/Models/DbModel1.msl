@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mydbModelStoreContainer" CdmEntityContainer="DBModels">
+    <EntitySetMapping Name="attendances">
+      <EntityTypeMapping TypeName="mydbModel.attendance">
+        <MappingFragment StoreEntitySet="attendance">
+          <ScalarProperty Name="atdno" ColumnName="atdno" />
+          <ScalarProperty Name="date_" ColumnName="date_" />
+          <ScalarProperty Name="status_" ColumnName="status_" />
+          <ScalarProperty Name="user_" ColumnName="user_" />
+          <ScalarProperty Name="no_of_days" ColumnName="no_of_days" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logins">
+      <EntityTypeMapping TypeName="mydbModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password_" ColumnName="password_" />
+          <ScalarProperty Name="status_" ColumnName="status_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="mydbModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="regId" ColumnName="regId" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password_" ColumnName="password_" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="ocp" ColumnName="ocp" />
+          <ScalarProperty Name="weight_" ColumnName="weight_" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="shedule" ColumnName="shedule" />
+          <ScalarProperty Name="d_plan" ColumnName="d_plan" />
+          <ScalarProperty Name="pay_type" ColumnName="pay_type" />
+          <ScalarProperty Name="Shift_" ColumnName="Shift_" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="img_path" ColumnName="img_path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
