@@ -14,8 +14,13 @@
     <title>Index</title>
 </head>
 <body>
+    <center>
+        <br />
+        <h2 class="text-danger">Payment Management(Trainer)</h2>
+    </center>
+    <br />
     <p>
-        @Html.ActionLink("Create New", "Create")
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success", @style = "color:white" })
     </p>
     <table class="table">
         <tr>
@@ -50,9 +55,9 @@
                     @Html.DisplayFor(modelItem => item.Month)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.TrainerID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.TrainerID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.TrainerID })
+                    @Html.ActionLink("Edit", "Edit", new { id = item.TrainerID }, new { @class = "btn btn-success", @style = "color:white" })
+                    @Html.ActionLink("Details", "Details", new { id = item.TrainerID }, new { @class = "btn btn-dark", @style = "color:white" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.TrainerID }, new { @class = "btn btn-danger", @style = "color:white" })
                 </td>
             </tr>
         }
